@@ -1,8 +1,8 @@
-# piston_bot
+# Eval Bot
 
 A Telegram bot that will run code for you. Made using [piston][1].
 
-Available as [@iruncode_bot](https://t.me/iruncode_bot) on telegram.
+Available as [@xEvalBot](https://telegram.me/xevalbot) on telegram.
 
 ## Examples
 
