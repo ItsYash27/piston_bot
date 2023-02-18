@@ -15,24 +15,18 @@ import (
 )
 
 var USAGE_MSG = `
-<b>Usage:</b>
+<b>ℹ️ Usage:</b>
 <pre>/run [language]
-[your code]
-
-/stdin [input text] (optional)
-...</pre>
+[your code]</pre>
 
 type /langs for list of supported languages
-⚡ By @Crazy_Yash 
+⚡ By @Crazy_Yash .
 `
 
 var INLINE_USAGE_MSG = `
 <b>Inline usage:</b>
 <pre>@xevalbot [language]
-[your code]
-...
-/stdin [input text] (optional)
-...</pre>
+[your code]</pre>
 `
 var INLINE_USAGE_MSG_PLAINTEXT = `Usage: @xevalbot [language] [code]`
 
@@ -47,6 +41,7 @@ var STATS_MSG = `
 - Total messages sent: %d
 - Total unique chats messaged in: %d
 - Total unique users: %d
+- Why Do You Want Stats?🤨
 `
 
 type Stat struct {
@@ -248,7 +243,7 @@ func forkButton(request piston.RunRequest) *tgbot.InlineKeyboardMarkup {
 		InlineKeyboard: [][]tgbot.InlineKeyboardButton{
 			{
 				tgbot.InlineKeyboardButton{
-					Text:                         "Fork",
+					Text:                         "Execute Again",
 					SwitchInlineQueryCurrentChat: &forkText,
 				},
 			},
