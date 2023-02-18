@@ -16,11 +16,13 @@ import (
 
 var USAGE_MSG = `
 <b>ℹ️ Usage:</b>
-<pre>/run [language]
-[your code]</pre>
+<pre>/run [language] [your code]</pre>
 
-type /langs for list of supported languages
-⚡ By @Crazy_Yash .
+<b>😶‍🌫️ Example:</b>
+<pre>/run python3 print("Bot By @Crazy_Yash")</pre>
+
+<pre>Use</pre> /langs
+<b>ᴛᴏ ɢᴇᴛ sᴜᴘᴘᴏʀᴛᴇᴅ ʟᴀɴɢᴜᴀɢᴇs ᴛᴏ ᴇxᴇᴄᴜᴛᴇ</b>
 `
 
 var INLINE_USAGE_MSG = `
@@ -32,7 +34,7 @@ var INLINE_USAGE_MSG_PLAINTEXT = `Usage: @xevalbot [language] [code]`
 
 var ERROR_STRING = `
 Some error occured, try again later.
-If the error persists, report it to the admins in the bot's bio.
+If the error persists, report it to the @Crazy_Yash.
 `
 
 var STATS_MSG = `
