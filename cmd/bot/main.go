@@ -18,22 +18,23 @@ var USAGE_MSG = `
 <b>Usage:</b>
 <pre>/run [language]
 [your code]
-...
+
 /stdin [input text] (optional)
 ...</pre>
 
-type /langs for list of supported languages.
+type /langs for list of supported languages
+⚡ By @Crazy_Yash 
 `
 
 var INLINE_USAGE_MSG = `
 <b>Inline usage:</b>
-<pre>@iruncode_bot [language]
+<pre>@xevalbot [language]
 [your code]
 ...
 /stdin [input text] (optional)
 ...</pre>
 `
-var INLINE_USAGE_MSG_PLAINTEXT = `Usage: @iruncode_bot [language] [code]`
+var INLINE_USAGE_MSG_PLAINTEXT = `Usage: @xevalbot [language] [code]`
 
 var ERROR_STRING = `
 Some error occured, try again later.
